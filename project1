@@ -1,2 +1,38 @@
+
+#IAAC | Automate infrastructure 
+#Define infrastructure state
+#ansible, puppet or chef automates mostly OS related tasks
+----> Define machines state. But it can't maintain itself
+
+#On on the other hand , Terraform automates infra itself and 
+#also maintain its state like any aws, gcp , azure digital ocean etc
+
 #Terraform works with automation softwares like ansible after infra is setup
-and ready
+and ready. Now Terraform combining together with automation 
+tools like ansible can give you complete automation.
+-->Once you infrastructure is set up , if you are provisioning 
+---> ec2 instances launching with Terraform, you like to provision it with some software packages. You can use Ansible ,
+puppet or Terraform with that , Other wise normal bash Script is fine.
+
+---> it has No prpgraming language , its own sysntax similar to JSON
+It's just matter of learning the syntax of Terraform
+---Once you know the Terraform syntax and the basic execution, then you can use the Terraform documentation and write your complete automation or infrastructure state.
+
+---Terraform does not have any programing language.
+---It has its own systax domain specific language, DSL
+---which is similar to JSON, very easy to understand.
+---On top of that it has great documentation
+---Rememever in DevOps we need to automate evrything we know how to automate systems.
+
+---Infrastructure automation centralized
+
+
+
+
+
+
+
+
+
+
+
